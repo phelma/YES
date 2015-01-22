@@ -8,7 +8,17 @@
   display: block;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   color: #eee;
   text-align: center;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 4em;
+  width: 100%;
+}
+.next {
+  margin: 1em;
 }
