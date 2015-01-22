@@ -4,8 +4,9 @@
 // xhr.done(function(data) {
 // 	console.log("success got data", data);
 // });
-
+// window.scrollTo(0,1);
 $('#bigtext').fitText(0.25);
+// document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
 
 var interval;
 var gifUrl;
