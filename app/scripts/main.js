@@ -29,9 +29,9 @@ function slideshow() {
 function next() {
 	clearInterval(interval);
 	slideshow();
-	interval = setInterval(slideshow, 10000);
+	interval = setInterval(slideshow, 5000);
 }
-interval = setInterval(slideshow, 10000);
+interval = setInterval(slideshow, 5000);
 
 slideshow();
 
