@@ -1,0 +1,8 @@
+{
+  "name": "yes",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "FitText.js": "~1.2.0"
+  }
+}
