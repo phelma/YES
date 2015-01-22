@@ -12,7 +12,7 @@ var gifUrl;
 
 function slideshow() {
 	$.support.cors = true;
-	$.getJSON("http://api.giphy.com/v1/gifs/tv?api_key=dc6zaTOxFJmzC&tag=giphytrending", null, function(response) {
+	$.getJSON("http://api.giphy.com/v1/gifs/tv?api_key=dc6zaTOxFJmzC&tag=yes", null, function(response) {
 		var id = response.data.id;
 		var image = response.data.image_original_url;
 
