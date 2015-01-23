@@ -3,7 +3,8 @@ html, body {
   overflow-x: hidden;
 }
 body {
-  position: relative
+  position: relative;
+  background-color: #111;
 }
 .gif {
   background-size: cover;
